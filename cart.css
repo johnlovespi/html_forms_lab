@@ -1,43 +1,20 @@
 hr{
   width: 150px;
 }
-<<<<<<< HEAD
-h1{
-  text-align: center;
-}
-=======
 
 h1{
-  text-align: center;
+/*  text-align: center;*/
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
+  border-bottom: solid 1px black;
+  padding: 20px;
 }
 
->>>>>>> c0102f55f1d14cb98e465ee45b8241632d590d1b
 body {
   width: 80%;
   height: 100%;
-  border: solid 3px black;
+  border: dotted 1px black;
   margin: 0 auto;
-<<<<<<< HEAD
-}
-
-.container{
-  width: 700px;
-  height: 600px;
-  border-radius: 20px;
-  background-color: lightblue;
-  margin-left: 150px;
-   }
-   button{
-   width: 100px;
-    height: 10%;
-
-   }
-   section{
-
-   }
-=======
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
 }
@@ -70,7 +47,7 @@ input[type=int], select {
 
 button {
     width: 100%;
-    background-color: #668cff;
+    background-color: #ff4dd2;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -82,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #4d79ff;
+    background-color: #e600ac;
 }
 
 input[type=checkbox] {
@@ -94,4 +71,7 @@ p {
   display: inline-block;
   padding: 0 50px 0 10px;
 }
->>>>>>> c0102f55f1d14cb98e465ee45b8241632d590d1b
+
+span {
+  color: #e600ac;
+}
